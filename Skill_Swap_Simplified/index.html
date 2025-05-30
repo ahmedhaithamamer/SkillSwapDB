@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSwap - Share and Learn Skills</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">SkillSwap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">Share Your Skills, Learn New Ones</h1>
+                    <p class="lead">Connect with others in your community to exchange knowledge and grow together.</p>
+                    <a href="signup.html" class="btn btn-light btn-lg">Get Started</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/hero-image.jpg" alt="People sharing skills" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How SkillSwap Works -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="fw-bold mb-3">How SkillSwap Works</h1>
+                <p class="lead text-muted">
+                    SkillSwap is a platform that helps university students exchange skills and knowledge without 
+                    money. Here's how to get started and make the most of our community.
+                </p>
+            </div>
+
+            <div class="row gx-5 gy-5">
+                <!-- Step 1 -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-flex mb-4" style="width: 100px; height: 100px;">
+                                <i class="bi bi-person-badge text-primary" style="font-size: 3rem; margin: auto;"></i>
+                            </div>
+                            <h3 class="fw-bold mb-3">1. Create Your Profile</h3>
+                            <p class="text-muted">
+                                Sign up with your university email and list the skills you can teach 
+                                others. Be specific about what you offer, your expertise level, and
+                                time commitment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-flex mb-4" style="width: 100px; height: 100px;">
+                                <i class="bi bi-search text-primary" style="font-size: 3rem; margin: auto;"></i>
+                            </div>
+                            <h3 class="fw-bold mb-3">2. Browse Skills</h3>
+                            <p class="text-muted">
+                                Explore the marketplace to find skills offered by other students.
+                                Filter by category, skill level, or use the search to find exactly what
+                                you need.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-flex mb-4" style="width: 100px; height: 100px;">
+                                <i class="bi bi-chat-text text-primary" style="font-size: 3rem; margin: auto;"></i>
+                            </div>
+                            <h3 class="fw-bold mb-3">3. Connect & Message</h3>
+                            <p class="text-muted">
+                                When you find someone with a skill you want to learn, or when
+                                someone requests a skill you can teach, send them a message to
+                                start the conversation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <div class="card border-0 shadow-sm p-4">
+                        <h4 class="mb-4">Platform Features</h4>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="rounded-circle bg-primary bg-opacity-10 p-3 mb-3 d-flex" style="width: 80px; height: 80px;">
+                                        <i class="bi bi-grid-3x3-gap text-primary" style="font-size: 2rem; margin: auto;"></i>
+                                    </div>
+                                    <h5>Skill Marketplace</h5>
+                                    <p class="text-muted text-center">Browse and filter through available skills offered by students.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="rounded-circle bg-primary bg-opacity-10 p-3 mb-3 d-flex" style="width: 80px; height: 80px;">
+                                        <i class="bi bi-chat-dots text-primary" style="font-size: 2rem; margin: auto;"></i>
+                                    </div>
+                                    <h5>Messaging System</h5>
+                                    <p class="text-muted text-center">Direct communication with potential skill partners.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="rounded-circle bg-primary bg-opacity-10 p-3 mb-3 d-flex" style="width: 80px; height: 80px;">
+                                        <i class="bi bi-star text-primary" style="font-size: 2rem; margin: auto;"></i>
+                                    </div>
+                                    <h5>Skill Tracking</h5>
+                                    <p class="text-muted text-center">Track skills you're learning and teaching on your dashboard.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 pt-3">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h3 class="mb-4">Ready to Start Swapping?</h3>
+                    <p class="lead mb-4">Join our community of students sharing knowledge and skills!</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="signup.html" class="btn btn-primary btn-lg px-4 gap-3">Sign Up Now</a>
+                        <a href="login.html" class="btn btn-outline-secondary btn-lg px-4">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The SkillSwap Code -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h2 class="text-center mb-4">The SkillSwap Code</h2>
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <i class="bi bi-check-circle-fill text-primary me-3 fs-4"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Respect Time</h5>
+                                            <p class="text-muted">Show up on time for your sessions and respect your partner's schedule.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <i class="bi bi-check-circle-fill text-primary me-3 fs-4"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Be Patient</h5>
+                                            <p class="text-muted">Everyone learns at different speeds. Be patient when teaching others.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <i class="bi bi-check-circle-fill text-primary me-3 fs-4"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Give Constructive Feedback</h5>
+                                            <p class="text-muted">Share constructive feedback to help your partner improve.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <i class="bi bi-check-circle-fill text-primary me-3 fs-4"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Pay it Forward</h5>
+                                            <p class="text-muted">Help others with skills you've learned to keep our community thriving.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Users Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <p class="card-text">"I learned Python programming from a Computer Science senior, and in return, I taught them Spanish. It's been an amazing exchange!"</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <i class="bi bi-person-circle fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Sarah M.</h6>
+                                    <small class="text-muted">Business Major</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <p class="card-text">"SkillSwap helped me learn guitar while I taught math to a music major. It's the perfect balance of giving and receiving knowledge."</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <i class="bi bi-person-circle fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Alex J.</h6>
+                                    <small class="text-muted">Engineering Student</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <p class="card-text">"I've made valuable connections and friends through SkillSwap. The platform makes it easy to find people with complementary skills."</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <i class="bi bi-person-circle fs-3 me-3"></i>
+                                <div>
+                                    <h6 class="mb-0">Michael T.</h6>
+                                    <small class="text-muted">Psychology Major</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>SkillSwap</h5>
+                    <p>Connecting people through knowledge exchange.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="login.html" class="text-white">Login</a></li>
+                        <li><a href="signup.html" class="text-white">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-envelope"></i> contact@skillswap.com</li>
+                        <li><i class="bi bi-geo-alt"></i> 123 Campus Drive</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/auth.js"></script>
+</body>
+</html> 
