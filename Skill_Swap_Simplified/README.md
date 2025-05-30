@@ -120,7 +120,7 @@ The project is structured to allow future integration with a backend system:
 - Abdelrahman El-Sisi - Community Manager
 - Youssef Waleed - Backend Developer
 - Omar El-Beltagy - Database Engineer
-- Omar Tarek - Frontend Developer
+- Abdullah Emam - Frontend Developer
 
 ## License
 
